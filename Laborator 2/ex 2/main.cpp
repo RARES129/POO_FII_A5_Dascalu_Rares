@@ -74,9 +74,9 @@ int main()
 
             if (comparareMedie(&f[i], &f[j]) == 0)
                 printf("Mediile sunt egale \n");
-            else if (comparareEngleza(&f[i], &f[j]) == 1)
+            else if (comparareMedie(&f[i], &f[j]) == 1)
                 printf("Media elevului %s este mai mare \n", f[i].SGnume(0));
-            else if (comparareEngleza(&f[i], &f[j]) == -1)
+            else if (comparareMedie(&f[i], &f[j]) == -1)
                 printf("Media elevului %s este mai mare \n", f[j].SGnume(0));
             if (n > 2)
             {
